@@ -1,49 +1,23 @@
-const botoes = document.querySelectorAll(".botao");
-const textos = document.querySelectorAll(".aba-conteudo");
-// Iterando sobre a lista de botões
-for (let i = 0; i < botoes.length; i++) {
-  botoes[i].onclick = function () {
-    for (let j = 0; j < botoes.length; j++) {
-      botoes[j].classList.remove("ativo");
-      textos[j].classList.remove("ativo");
-    }
-    botoes[i].classList.add("ativo");
-    textos[i].classList.add("ativo");
-  };
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de JavaScript</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Curso de JavaScript</h1>
+        </header>
+        <article>
+            <p><abbr title="JavaScript">JavaScript</abbr> é uma linguagem de script criada para aumentar a interatividade entre um site e seus visitantes. Os códigos em JS são executados dentro do navegador e dão acesso aos elementos HTML por meio do <abbr title="Document Object Model">DOM</abbr>.</p>
 
-//document.querySelector("#minhaDiv p").textContent = "Olá Chuva, venha +- com força";
-const contadores = document.querySelectorAll(".contador");
-const tempoAtual = new Date(); // Retorna a data atual do computador
-const tempoObjetivo1 = new Date("2024-05-02T00:00:00");
-const tempoObjetivo2 = new Date("2024-08-12T00:00:00");
-const tempoObjetivo3 = new Date("2024-12-31T00:00:00");
-const tempoObjetivo4 = new Date("2024-06-20T00:00:00");
-const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BXqUH86F-kA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-function calculaTempo(tempoObjetivo) {
-  let tempoFinal = tempoObjetivo - tempoAtual;
-
-  let segundos = Math.floor(tempoFinal / 1000);
-  let minutos = Math.floor(segundos / 60);
-  let horas = Math.floor(minutos / 60);
-  let dias = Math.floor(horas / 24);
-
-  segundos %= 60;
-  minutos %= 60;
-  horas %= 24;
-  return (
-    dias +
-    " dias " +
-    horas +
-    " horas " +
-    minutos +
-    " minutos " +
-    segundos +
-    " segundos"
-  );
-}
-
-for (let i = 0; i < contadores.length; i++) {
-  contadores[i].textContent = calculaTempo(tempos[i]);
-}
+            <a href="index.html"><img src="imagens/btn-back.png" alt="Voltar"></a>
+        </article>
+    </main>
+</body>
+</html>
