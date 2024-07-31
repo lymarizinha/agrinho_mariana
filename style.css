@@ -52,12 +52,12 @@ nav li a:hover{
     text-align: center;
 }
 .texto .titulo{
-    color: #fff;
+    color: #000000;
     font-size: 60px;
     font-weight: 600;
 }
 .texto .sub_titulo{
-    color: #fff;
+    color: #000000;
     font-size: 58px;
     font-weight: 600;
 }
