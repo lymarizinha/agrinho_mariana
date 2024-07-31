@@ -37,7 +37,7 @@ nav li a{
     transition: 0.3s;
 }
 nav li a:hover{
-    background-color: white;
+    background-color: rgb(16, 226, 103);
     color: black;
 }
 .banner{
