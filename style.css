@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 nav{
-    background-color: #34d469;
+    background-color: #77d396;
     padding: 10px 60px;
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,7 @@ nav li{
 }
 nav li a{
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 15px;
@@ -37,7 +37,7 @@ nav li a{
     transition: 0.3s;
 }
 nav li a:hover{
-    background-color: rgb(16, 226, 103);
+    background-color: rgb(107, 179, 137);
     color: black;
 }
 .banner{
