@@ -1,58 +1,31 @@
-<!DOCTYPE HTML PUBLIC 
-	>
-<html>
-	<head>
-		<meta charset="UTF-8" />
-		<title>Hola Mundo</title>
-		<style>
-			body {
-				background-color: #fc9;
-			}
-			h1 { letter-spacing: 4px; 
-				text-align: center;
-			}
-			img#logo {
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-				width: 50%;
-				transition: width 1s
-			}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #77d396; /* Cor de fundo */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda a altura da viewport */
+    text-align: center;
+}
 
-			img#logo:hover {
-				background-color: #6491ed;
-				width: 60%;
-				transition: width 1s;
-			}	
-    		
-			#logo2 {
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-				width: 400px;
-			}
-		</style>
-		<script></script>
-	</head>
-	
-		
-<body bgcolor="blue" >
-	
-<h1> Hola Mundo </h1>
-<h2> Hola Mundo </h2>
-<a href="http://www.uach.mx" >Página UACH</a>
+.container {
+    background-color: white;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+}
 
-<a href="http://www.uach.mx" ><img src="http://www.uach.mx/assets/img/custom/escudo_header_color_w.svg" width="20%"></a>
+h1 {
+    color: #333;
+    margin-bottom: 0.5em;
+}
 
-</br>
-</br>
-</br>	
-
-<a href="http://www.uach.mx" ><img id="logo" src="http://www.uach.mx/assets/img/custom/escudo_header_color_w.svg"></a>
-
-<h2> Hola Mundo </h2>
-
-
-
-	</body>
-</html>
+p {
+    color: #555;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
